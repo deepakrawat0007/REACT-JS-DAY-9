@@ -1,0 +1,98 @@
+.card1{
+    text-align: center;
+    width: 40vw;
+    height: 40vh;
+    border: 1px solid darkcyan;
+    margin: auto;
+    background-color: darkcyan;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px lightgray;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+.card1 div{
+    margin: 10px;
+}
+.Uname{
+    font-size: 40px;
+    color:  white;
+
+}
+.mob{
+    font-size: 20px;
+    color: lightblue;
+}
+.styl{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.title{
+    border: 4px solid darkcyan;
+    display: flex;
+    padding: 15px;
+    font-weight: bold;
+    color: blue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    margin: 10px;
+    font-size: 20px;
+}
+.title:hover{
+    background-color: darkcyan;
+    color:whitesmoke;
+    cursor: pointer;
+}
+.title:hover .dat{
+    color: whitesmoke;
+}
+.title:hover .lik{
+    color: crimson;
+}
+.head{
+    margin-right: auto;
+
+}
+.lik{
+    color:red;
+}
+.details{
+background-color: indigo;
+color: whitesmoke;
+padding: 30px;
+text-align: center;
+}
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.Body{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.date{
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 2.5%;
+}
+.comments{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.comments h3{
+    text-align: center;
+}
+.dat{
+    margin-right: 20px;
+    color: gray;
+}
+.comm-card{
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.Name , .Email{
+    color: gray;
+}

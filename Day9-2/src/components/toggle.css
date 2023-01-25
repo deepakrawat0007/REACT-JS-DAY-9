@@ -1,0 +1,30 @@
+.wrapper-light , .wrapper-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: black;
+}
+.wrapper-dark{
+    background-color: rgb(0,0,0,0.9);
+    color: white;
+}
+button{
+    width: 15vw;
+    height: 10vh;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+.sun{
+text-align: left;
+background-color: skyblue;
+}
+.moon{
+    text-align: right;
+   background-color:rgb(3, 3, 65);
+}
+.para {
+    font-size: 25px;
+    font-weight: bold;
+}

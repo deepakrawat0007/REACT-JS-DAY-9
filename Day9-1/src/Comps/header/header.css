@@ -1,0 +1,32 @@
+
+.wrapper
+{
+    display: flex;
+    background-color: indigo;
+    height: 10vh;
+}
+
+.wrapper button{
+    border: 0;
+    outline-style: none;
+    background-color: indigo;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wrapper .btn1{
+    margin-left: 50px;
+    margin-right: auto;
+    color: white;
+}
+.white{
+    color: white;
+}
+.gray{
+    color: gray;
+}
+button:hover{
+    border-bottom: 5px solid darkblue;
+    color: whitesmoke;
+    cursor: pointer;
+}
